@@ -1,6 +1,14 @@
-# Website Scrapper API
+# FastAPI AI Agent for Website Scraping and OpenAI Integration
 
-This project provides a **FastAPI** application that allows you to create sessions by scraping content from websites. Once a session is created, you can interact with a **chat API** using the session ID to send and receive messages based on the scraped content.
+## Overview
+
+This project implements a FastAPI application that uses an AI agent to scrape a website's homepage and answer three specific questions based on the content:
+
+- **Industry**: What industry does the website belong to?
+- **Company Size**: What is the size of the company (e.g., small, medium, large)?
+- **Location**: Where is the company located?
+
+The AI agent processes the raw text of the homepage using OpenAI's API to answer these questions.
 
 ## Prerequisites
 
